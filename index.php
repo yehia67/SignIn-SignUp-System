@@ -1,11 +1,16 @@
+<?php
+    //Give Permisiion
+    define('__CONFIG__',true);
+    //Require Permisiion
+    require_once "inc/conf.php";
+    
+    ?>
 <!DOCTYPE html5>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Login Page</title>
-    <meta name="description" content="A simple registartion System">
-    <link rel="stylesheet" href="css/style.css">
-  
+  <?php
+  //initailize head
+  include 'inc/footer.php'
+  ?>
     <body>
         <!-- Start Website-->
         <div class="web">
