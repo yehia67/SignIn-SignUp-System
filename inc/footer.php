@@ -1,5 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>Login Page</title>
-    <meta name="description" content="A simple registartion System">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Login/SignUp System</title>
+    <meta name="description" content="A simple registartion and login System">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
