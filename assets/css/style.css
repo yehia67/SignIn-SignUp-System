@@ -23,6 +23,7 @@
 }
 .web  form .js-error{
     display: none;
+     color: #f00;
 }
 
 /* end global rules*/
