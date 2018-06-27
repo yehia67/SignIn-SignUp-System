@@ -24,7 +24,7 @@
                 Password<br />
                 <input type ="password" require >
                 <br/>
-                <input type ="button" value ="Register">
+                <button  type="submit">Register</button>
                 <br/>        
             </form>
              <!-- End SignUp form-->
