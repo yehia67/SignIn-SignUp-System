@@ -3,4 +3,5 @@
     <title>Login/SignUp System</title>
     <meta name="description" content="A simple registartion and login System">
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+    </head>

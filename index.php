@@ -6,10 +6,10 @@
     ?>
 <!DOCTYPE html5>
 <html>
-  <?php
-  //initailize head
-  include 'inc/footer.php'
-  ?>
+    <?php
+     //initailize scripts
+    include_once 'inc/footer.php'
+    ?> 
     <body>
         <!-- Start Website-->
         <div class="web">
@@ -29,6 +29,7 @@
             </form>
              <!-- End login form-->
          <!-- End Website-->
+          
         </div>
     </body>
 </html>

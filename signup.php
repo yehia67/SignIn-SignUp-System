@@ -14,7 +14,7 @@
         <!-- Start Website-->
         <div class="web">
             <!-- Start SignUp form-->
-            <form class ="js-login">
+            <form class ="js-signup">
                 username<br />
                 <input type ="text" require >
                 <br />
