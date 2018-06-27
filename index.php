@@ -6,12 +6,13 @@
     ?>
 <!DOCTYPE html5>
 <html>
-    <?php
+     <?php
      //initailize scripts
     include_once 'inc/footer.php'
-    ?> 
+    ?>    
     <body>
         <!-- Start Website-->
+       
         <div class="web">
             <!-- Start login form-->
             <form class ="js-login">
@@ -28,8 +29,8 @@
                 </span>
             </form>
              <!-- End login form-->
-         <!-- End Website-->
-          
+         <!-- End Website-->      
         </div>
+        
     </body>
 </html>
