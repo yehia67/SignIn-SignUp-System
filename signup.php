@@ -26,7 +26,7 @@
                 <br/>
                 <button  type="submit">Register</button>
                 <br/> 
-                <div class="js-error"></div>       
+                <div class="js-error">ff</div>       
             </form>
              <!-- End SignUp form-->
          <!-- End Website-->
