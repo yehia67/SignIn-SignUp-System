@@ -22,8 +22,31 @@ $(document)
 			.show();
 		return false;
 	} 
-   // start the ajax process
-	_error.hide();
+    // start the ajax process
+    _error.hide();
+	$.ajax({
+		type: 'POST',
+		url: 'ajax/register.php',
+		data: dataObj,
+		dataType: 'json',
+		async: true,
+	})
+	.done(function ajaxDone(data) {
+		// Whatever data is 
+		console.log(data);
+		if(data.redirect !== undefined) {
+			// window.location = data.redirect;
+		}
 
+		alert(data.name);
+	})
+	.fail(function ajaxFailed(e) {
+		// This failed 
+		console.log(e);
+	})
+	.always(function ajaxAlwaysDoThis(data) {
+		// Always do
+		console.log('Always');
+	})
 	return false;
 })
