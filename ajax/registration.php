@@ -4,7 +4,7 @@
     //Require Permisiion
     require_once "../inc/conf.php";
     //Make return json format
-   if($_SERVER['REQUEST_METHOD'] == 'POST' or 1==1){
+   if($_SERVER['REQUEST_METHOD'] == 'POST' or 1 == 1){
        header('Content-Type:application/json');
        //make sure user isn't already exist
        $return = [];
@@ -15,10 +15,10 @@
        $findUser->bindParam(':email',$email,PDO::PARAM_STR); 
        $findUser->execute();
        //make sure user is added
-      /* if($findUser->rowCount() == 1){
+       if($findUser->rowCount() == 1){
            //user exist
            $return['error'] ="you already have an account"; 
-       }else{*/
+       }else{
            //add user
            $addUser = $con->prepare("INSERT into user(user_name,user_email,user_password) values (:text,LOWER(:email),:password)");
            $addUser->bindParam(':text',$username,PDO::PARAM_STR); 
@@ -29,7 +29,7 @@
 		   $_SESSION['user_id'] = (int) $user_id;
 		   $return['redirect'] = '/dashboard.php?message=welcome';
 		   $return['is_logged_in'] = true; 
-        //}
+        }
        //return info and redirect the page using javascript
        echo json_encode($return,JSON_PRETTY_PRINT);
        exit;

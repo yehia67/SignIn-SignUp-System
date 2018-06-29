@@ -13,9 +13,8 @@
     clear: both
 }
 
-.web {}
 
-.web .js-login {
+.web form {
     float: left;
     width: 50%;
     height: 100px;

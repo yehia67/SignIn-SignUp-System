@@ -24,9 +24,9 @@
                 Password<br />
                 <input type ="password" require >
                 <br/>
-                <button  type="submit">Register</button>
+                <button type="submit">Register</button>
                 <br/> 
-                <div class="js-error">ff</div>       
+                <div class="js-error"></div>       
             </form>
              <!-- End SignUp form-->
          <!-- End Website-->
